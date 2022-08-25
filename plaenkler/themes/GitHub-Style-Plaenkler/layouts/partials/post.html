@@ -7,9 +7,12 @@
             <div class="d-flex">
               <div class="d-none d-md-block">
                 <a class="avatar mr-2 flex-shrink-0" href="{{ .Site.BaseURL }}">
-                  <img class=" avatar-user"
-                    src="{{ with $.Site.Params.avatar }}{{ $.Site.Params.avatar }}{{ else }}{{ "images/avatar.png" | absURL }}{{ end }}"
-                    width="32" height="32"></a>
+                {{ with $.Site.Params.avatar }}
+                <img class="avatar-user" src="{{ $.Site.BaseURL }}{{ $.Site.Params.avatar }}" width="32" height="32">
+                {{ else }}
+                <img class="avatar-user" src="{{ "images/avatar.png" | absURL }}" width="32" height="32">
+                {{ end }}
+                </a>
               </div>
               <div class="d-flex flex-column">
                 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
