@@ -1,0 +1,6 @@
+baseURL: "https://Plaenkler.com/"
+languageCode: "de-de"
+title: "Plaenkler's blog"
+theme: "GitHub-Style-Plaenkler"
+params:
+  avatar: "images/plaenkler.jpg"
