@@ -23,5 +23,6 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: true
+          FILTER_REGEX_EXCLUDE: .*themes/GitHub-Style-Plaenkler.*
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
