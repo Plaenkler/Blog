@@ -1,2 +1,13 @@
+# HUGO
+
+# Generated files by hugo
+src/public/*
+src/resources/*
 .vscode
+.DS_Store
 .hugo_build.lock
+
+# Executables
+hugo.exe
+hugo.darwin
+hugo.linux
