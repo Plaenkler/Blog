@@ -1,8 +1,9 @@
 ---
 title: "Adding YAML Configuration to Go Programs"
-date: 2023-01-24T00:00:00+00:00
+date: 2023-01-24T00:13:30+01:00
 draft: false
 summary: "Easily manage configurations for your Go program using YAML files. Learn simple and readable way to manage settings in Go development."
+pin: true
 ---
 
 # Adding YAML Configuration to Go Programs

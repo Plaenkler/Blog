@@ -3,8 +3,6 @@
 name: Linters
 
 on:
-  push:
-    branches: main
   pull_request:
     branches: main
 
@@ -25,7 +23,3 @@ jobs:
           DEFAULT_BRANCH: main
           VALIDATE_ALL_CODEBASE: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE:
-            - .*static.*
-            - .*themes/GitHub-Style-Plaenkler/static.*
-            - .*themes/GitHub-Style-Plaenkler/images.*
