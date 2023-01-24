@@ -1,5 +1,5 @@
 baseURL = "https://Plaenkler.com/"
-languageCode = "de-de"
+languageCode = "en-us"
 title = "Plaenkler's blog"
 theme = "GitHub-Style-Plaenkler"
 googleAnalytics = "UA-123456-789"
