@@ -1,4 +1,4 @@
-baseURL: "https://plaenkler.github.io/blog/"
+baseURL: "https://plaenkler.github.io/Blog/"
 languageCode: "en-us"
 title: "Plaenkler's blog"
 theme: "GitHub-Style-Plaenkler"
