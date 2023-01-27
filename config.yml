@@ -1,4 +1,4 @@
-baseURL: "https://plaenkler.com"
+baseURL: "https://plaenkler.com/"
 languageCode: "en-us"
 title: "Plaenkler's blog"
 theme: "GitHub-Style-Plaenkler"
@@ -8,7 +8,7 @@ params:
   avatar: "images/simon-lukas.png"
   github: "Plaenkler"
   email: "info@plaenkler.com"
-  url: "https://plaenkler.com"
+  url: "https://plaenkler.com/"
   keywords: "blog"
   rss: true
   lastmod: true
