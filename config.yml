@@ -1,7 +1,9 @@
 baseURL: "https://plaenkler.com"
 languageCode: "en-us"
-title: "Plaenkler's blog"
+title: "Programming Insights and Tips from Plaenkler's Blog"
 theme: "GitHub-Style-Plaenkler"
+googleAnalytics: "G-1HP5PN4E3Q"
+
 params:
   author: "Simon Lukas"
   description: "System integrator with a great interest in software and hardware development. Currently employed by Avanis GmbH and managing director of LaKiS GbR."
@@ -9,7 +11,7 @@ params:
   github: "Plaenkler"
   email: "info@plaenkler.com"
   url: "https://plaenkler.com"
-  keywords: "blog"
+  keywords: "Coding tutorials, Web development, Best practices"
   rss: true
   lastmod: true
   favicon: "/images/github.png"
