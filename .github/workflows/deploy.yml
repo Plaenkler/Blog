@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true  # Fetch Hugo themes
+          submodules: false  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history
 
       - name: Setup Hugo
@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo -s ./ --minify 
+        run: env HUGO_ENV="production" hugo -s ./ --minify 
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
