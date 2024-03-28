@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Plaenkler`s blog",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod-js": "esbuild ./vendor/alpine.js --outfile=./dist/base.js --bundle --minify",
+    "prod-css": "tailwindcss -i ./vendor/tailwind.css -o ./dist/base.css",
+    "dev-js": "esbuild ./vendor/alpine.js --outfile=./dist/base.js --bundle --watch",
+    "dev-css": "tailwindcss -i ./vendor/tailwind.css -o ./dist/base.css --watch"
+  },
+  "author": "Plaenkler",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@alpinejs/intersect": "^3.13.5",
+    "alpinejs": "^3.13.5",
+    "esbuild": "^0.20.1"
+  }
+}
