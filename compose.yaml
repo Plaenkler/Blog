@@ -1,0 +1,14 @@
+---
+
+services:
+  antiquariat-page:
+    image: ghcr.io/plaenkler/blog:latest
+    container_name: antiquariat-page
+    ports:
+      - "80:80"
+    networks:
+      - web
+
+networks:
+  web:
+    external: false
