@@ -1,9 +1,9 @@
 ---
 
 services:
-  antiquariat-page:
+  blog:
     image: ghcr.io/plaenkler/blog:latest
-    container_name: antiquariat-page
+    container_name: blog
     ports:
       - "80:80"
     networks:
