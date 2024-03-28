@@ -1,13 +1,18 @@
-# HUGO
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Generated files by hugo
-src/public/*
-src/resources/*
-.vscode
-.DS_Store
-.hugo_build.lock
+# Node_modules
+node_modules
 
-# Executables
-hugo.exe
-hugo.darwin
-hugo.linux
+# Tailwind output
+base.css
+
+# Alpine.js output
+base.js
+
+# Ignore logs
+*.log
